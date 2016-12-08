@@ -12,6 +12,22 @@
 		7EFA83B41DF9046900241658 /* NSString+BaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA83B21DF9046900241658 /* NSString+BaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EFA83B51DF9046900241658 /* NSString+BaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA83B31DF9046900241658 /* NSString+BaseKit.m */; };
 		7EFA83E91DF9110500241658 /* BaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA83E81DF9110500241658 /* BaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EFA83F01DF9447400241658 /* UIButton+BaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA83EE1DF9447400241658 /* UIButton+BaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EFA83F11DF9447400241658 /* UIButton+BaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA83EF1DF9447400241658 /* UIButton+BaseKit.m */; };
+		7EFA83F41DF950D100241658 /* UIBarButtonItem+BaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA83F21DF950D100241658 /* UIBarButtonItem+BaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EFA83F51DF950D100241658 /* UIBarButtonItem+BaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA83F31DF950D100241658 /* UIBarButtonItem+BaseKit.m */; };
+		7EFA83F81DF951A500241658 /* UIColor+BaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA83F61DF951A500241658 /* UIColor+BaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EFA83F91DF951A500241658 /* UIColor+BaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA83F71DF951A500241658 /* UIColor+BaseKit.m */; };
+		7EFA83FC1DF952D000241658 /* UIStoryboard+BaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA83FA1DF952D000241658 /* UIStoryboard+BaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EFA83FD1DF952D000241658 /* UIStoryboard+BaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA83FB1DF952D000241658 /* UIStoryboard+BaseKit.m */; };
+		7EFA84001DF954EA00241658 /* UITextField+BaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA83FE1DF954EA00241658 /* UITextField+BaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EFA84011DF954EA00241658 /* UITextField+BaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA83FF1DF954EA00241658 /* UITextField+BaseKit.m */; };
+		7EFA84081DF9577500241658 /* BKDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA84061DF9577500241658 /* BKDeviceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EFA84091DF9577500241658 /* BKDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA84071DF9577500241658 /* BKDeviceManager.m */; };
+		7EFA840C1DF9645700241658 /* NSObject+BaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA840A1DF9645700241658 /* NSObject+BaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EFA840D1DF9645700241658 /* NSObject+BaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA840B1DF9645700241658 /* NSObject+BaseKit.m */; };
+		7EFA84101DF9651500241658 /* BKAppManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA840E1DF9651500241658 /* BKAppManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EFA84111DF9651500241658 /* BKAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA840F1DF9651500241658 /* BKAppManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +49,22 @@
 		7EFA83B21DF9046900241658 /* NSString+BaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BaseKit.h"; sourceTree = "<group>"; };
 		7EFA83B31DF9046900241658 /* NSString+BaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BaseKit.m"; sourceTree = "<group>"; };
 		7EFA83E81DF9110500241658 /* BaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseKit.h; sourceTree = "<group>"; };
+		7EFA83EE1DF9447400241658 /* UIButton+BaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BaseKit.h"; sourceTree = "<group>"; };
+		7EFA83EF1DF9447400241658 /* UIButton+BaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BaseKit.m"; sourceTree = "<group>"; };
+		7EFA83F21DF950D100241658 /* UIBarButtonItem+BaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BaseKit.h"; sourceTree = "<group>"; };
+		7EFA83F31DF950D100241658 /* UIBarButtonItem+BaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BaseKit.m"; sourceTree = "<group>"; };
+		7EFA83F61DF951A500241658 /* UIColor+BaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BaseKit.h"; sourceTree = "<group>"; };
+		7EFA83F71DF951A500241658 /* UIColor+BaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BaseKit.m"; sourceTree = "<group>"; };
+		7EFA83FA1DF952D000241658 /* UIStoryboard+BaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+BaseKit.h"; sourceTree = "<group>"; };
+		7EFA83FB1DF952D000241658 /* UIStoryboard+BaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+BaseKit.m"; sourceTree = "<group>"; };
+		7EFA83FE1DF954EA00241658 /* UITextField+BaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BaseKit.h"; sourceTree = "<group>"; };
+		7EFA83FF1DF954EA00241658 /* UITextField+BaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BaseKit.m"; sourceTree = "<group>"; };
+		7EFA84061DF9577500241658 /* BKDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKDeviceManager.h; sourceTree = "<group>"; };
+		7EFA84071DF9577500241658 /* BKDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKDeviceManager.m; sourceTree = "<group>"; };
+		7EFA840A1DF9645700241658 /* NSObject+BaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BaseKit.h"; sourceTree = "<group>"; };
+		7EFA840B1DF9645700241658 /* NSObject+BaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BaseKit.m"; sourceTree = "<group>"; };
+		7EFA840E1DF9651500241658 /* BKAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKAppManager.h; sourceTree = "<group>"; };
+		7EFA840F1DF9651500241658 /* BKAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKAppManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +107,7 @@
 		7EFA83981DF902B200241658 /* BaseKit */ = {
 			isa = PBXGroup;
 			children = (
-				7EFA83B11DF9034800241658 /* Foundation */,
+				7EFA84021DF956C200241658 /* Foundation */,
 				7EFA83B01DF9034800241658 /* Category */,
 				7EFA83E81DF9110500241658 /* BaseKit.h */,
 				7EFA839A1DF902B200241658 /* Info.plist */,
@@ -95,19 +127,58 @@
 		7EFA83B01DF9034800241658 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7EFA840A1DF9645700241658 /* NSObject+BaseKit.h */,
+				7EFA840B1DF9645700241658 /* NSObject+BaseKit.m */,
 				7EFA83B21DF9046900241658 /* NSString+BaseKit.h */,
 				7EFA83B31DF9046900241658 /* NSString+BaseKit.m */,
+				7EFA83F61DF951A500241658 /* UIColor+BaseKit.h */,
+				7EFA83F71DF951A500241658 /* UIColor+BaseKit.m */,
+				7EFA83EE1DF9447400241658 /* UIButton+BaseKit.h */,
+				7EFA83EF1DF9447400241658 /* UIButton+BaseKit.m */,
+				7EFA83FE1DF954EA00241658 /* UITextField+BaseKit.h */,
+				7EFA83FF1DF954EA00241658 /* UITextField+BaseKit.m */,
+				7EFA83FA1DF952D000241658 /* UIStoryboard+BaseKit.h */,
+				7EFA83FB1DF952D000241658 /* UIStoryboard+BaseKit.m */,
+				7EFA83F21DF950D100241658 /* UIBarButtonItem+BaseKit.h */,
+				7EFA83F31DF950D100241658 /* UIBarButtonItem+BaseKit.m */,
 			);
 			name = Category;
 			path = ../../Category;
 			sourceTree = "<group>";
 		};
-		7EFA83B11DF9034800241658 /* Foundation */ = {
+		7EFA84021DF956C200241658 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7EFA84031DF956C200241658 /* Manager */,
+				7EFA84041DF956C200241658 /* Tool */,
+				7EFA84051DF956C200241658 /* View */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		7EFA84031DF956C200241658 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7EFA84061DF9577500241658 /* BKDeviceManager.h */,
+				7EFA84071DF9577500241658 /* BKDeviceManager.m */,
+				7EFA840E1DF9651500241658 /* BKAppManager.h */,
+				7EFA840F1DF9651500241658 /* BKAppManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7EFA84041DF956C200241658 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Foundation;
-			path = ../../Foundation;
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		7EFA84051DF956C200241658 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +189,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EFA83E91DF9110500241658 /* BaseKit.h in Headers */,
+				7EFA84001DF954EA00241658 /* UITextField+BaseKit.h in Headers */,
+				7EFA83F41DF950D100241658 /* UIBarButtonItem+BaseKit.h in Headers */,
+				7EFA83F81DF951A500241658 /* UIColor+BaseKit.h in Headers */,
+				7EFA84081DF9577500241658 /* BKDeviceManager.h in Headers */,
+				7EFA84101DF9651500241658 /* BKAppManager.h in Headers */,
+				7EFA83FC1DF952D000241658 /* UIStoryboard+BaseKit.h in Headers */,
+				7EFA840C1DF9645700241658 /* NSObject+BaseKit.h in Headers */,
+				7EFA83F01DF9447400241658 /* UIButton+BaseKit.h in Headers */,
 				7EFA83B41DF9046900241658 /* NSString+BaseKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +302,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EFA83B51DF9046900241658 /* NSString+BaseKit.m in Sources */,
+				7EFA83F11DF9447400241658 /* UIButton+BaseKit.m in Sources */,
+				7EFA84111DF9651500241658 /* BKAppManager.m in Sources */,
+				7EFA83F51DF950D100241658 /* UIBarButtonItem+BaseKit.m in Sources */,
+				7EFA840D1DF9645700241658 /* NSObject+BaseKit.m in Sources */,
+				7EFA84091DF9577500241658 /* BKDeviceManager.m in Sources */,
+				7EFA83F91DF951A500241658 /* UIColor+BaseKit.m in Sources */,
+				7EFA83FD1DF952D000241658 /* UIStoryboard+BaseKit.m in Sources */,
+				7EFA84011DF954EA00241658 /* UITextField+BaseKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

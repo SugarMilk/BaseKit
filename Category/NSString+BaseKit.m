@@ -1,9 +1,9 @@
 //
 //  NSString+BaseKit.m
-//  HJCategory
+//  BaseKit
 //
-//  Created by 黄健 on 2016/10/29.
-//  Copyright © 2016年 黄健. All rights reserved.
+//  Created by huangjian on 16/12/8.
+//  Copyright © 2016年 huangjian. All rights reserved.
 //
 
 #import "NSString+BaseKit.h"
@@ -27,3 +27,23 @@
 }
 
 @end
+
+
+@implementation NSString (BaseKit_NSString_Judge)
+
+- (BOOL)bk_isPureInt {
+    NSScanner * scan = [NSScanner scannerWithString:self];
+    int val;
+    return[scan scanInt:&val] && [scan isAtEnd];
+}
+
+- (BOOL)bk_isContainerString:(NSString *)subString {
+    if([self rangeOfString:subString].location != NSNotFound) {
+        return YES;
+    }
+    return NO;
+}
+
+@end
+
+
