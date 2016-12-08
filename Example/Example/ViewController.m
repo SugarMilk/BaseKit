@@ -18,11 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NSString * string = @"123456";
     
-    NSString * md5_string = [string bk_md5];
-    
-    NSLog(@"md5_string:  %@", md5_string);
 }
 
 
