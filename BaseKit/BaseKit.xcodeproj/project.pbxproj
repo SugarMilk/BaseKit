@@ -22,12 +22,12 @@
 		7EFA83FD1DF952D000241658 /* UIStoryboard+BaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA83FB1DF952D000241658 /* UIStoryboard+BaseKit.m */; };
 		7EFA84001DF954EA00241658 /* UITextField+BaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA83FE1DF954EA00241658 /* UITextField+BaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EFA84011DF954EA00241658 /* UITextField+BaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA83FF1DF954EA00241658 /* UITextField+BaseKit.m */; };
-		7EFA84081DF9577500241658 /* BKDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA84061DF9577500241658 /* BKDeviceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EFA84091DF9577500241658 /* BKDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA84071DF9577500241658 /* BKDeviceManager.m */; };
 		7EFA840C1DF9645700241658 /* NSObject+BaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA840A1DF9645700241658 /* NSObject+BaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EFA840D1DF9645700241658 /* NSObject+BaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA840B1DF9645700241658 /* NSObject+BaseKit.m */; };
-		7EFA84101DF9651500241658 /* BKAppManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA840E1DF9651500241658 /* BKAppManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EFA84111DF9651500241658 /* BKAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA840F1DF9651500241658 /* BKAppManager.m */; };
+		7EFA841A1DF973E900241658 /* BKAppManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA84141DF973E900241658 /* BKAppManager.h */; };
+		7EFA841B1DF973E900241658 /* BKAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA84151DF973E900241658 /* BKAppManager.m */; };
+		7EFA841C1DF973E900241658 /* BKDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFA84161DF973E900241658 /* BKDeviceManager.h */; };
+		7EFA841D1DF973E900241658 /* BKDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA84171DF973E900241658 /* BKDeviceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,12 +59,12 @@
 		7EFA83FB1DF952D000241658 /* UIStoryboard+BaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+BaseKit.m"; sourceTree = "<group>"; };
 		7EFA83FE1DF954EA00241658 /* UITextField+BaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BaseKit.h"; sourceTree = "<group>"; };
 		7EFA83FF1DF954EA00241658 /* UITextField+BaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BaseKit.m"; sourceTree = "<group>"; };
-		7EFA84061DF9577500241658 /* BKDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKDeviceManager.h; sourceTree = "<group>"; };
-		7EFA84071DF9577500241658 /* BKDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKDeviceManager.m; sourceTree = "<group>"; };
 		7EFA840A1DF9645700241658 /* NSObject+BaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BaseKit.h"; sourceTree = "<group>"; };
 		7EFA840B1DF9645700241658 /* NSObject+BaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BaseKit.m"; sourceTree = "<group>"; };
-		7EFA840E1DF9651500241658 /* BKAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKAppManager.h; sourceTree = "<group>"; };
-		7EFA840F1DF9651500241658 /* BKAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKAppManager.m; sourceTree = "<group>"; };
+		7EFA84141DF973E900241658 /* BKAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKAppManager.h; sourceTree = "<group>"; };
+		7EFA84151DF973E900241658 /* BKAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKAppManager.m; sourceTree = "<group>"; };
+		7EFA84161DF973E900241658 /* BKDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKDeviceManager.h; sourceTree = "<group>"; };
+		7EFA84171DF973E900241658 /* BKDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKDeviceManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		7EFA83981DF902B200241658 /* BaseKit */ = {
 			isa = PBXGroup;
 			children = (
-				7EFA84021DF956C200241658 /* Foundation */,
+				7EFA84121DF973E900241658 /* Foundation */,
 				7EFA83B01DF9034800241658 /* Category */,
 				7EFA83E81DF9110500241658 /* BaseKit.h */,
 				7EFA839A1DF902B200241658 /* Info.plist */,
@@ -146,35 +146,36 @@
 			path = ../../Category;
 			sourceTree = "<group>";
 		};
-		7EFA84021DF956C200241658 /* Foundation */ = {
+		7EFA84121DF973E900241658 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				7EFA84031DF956C200241658 /* Manager */,
-				7EFA84041DF956C200241658 /* Tool */,
-				7EFA84051DF956C200241658 /* View */,
+				7EFA84131DF973E900241658 /* Manager */,
+				7EFA84181DF973E900241658 /* Tool */,
+				7EFA84191DF973E900241658 /* View */,
 			);
-			path = Foundation;
+			name = Foundation;
+			path = ../../Foundation;
 			sourceTree = "<group>";
 		};
-		7EFA84031DF956C200241658 /* Manager */ = {
+		7EFA84131DF973E900241658 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				7EFA84061DF9577500241658 /* BKDeviceManager.h */,
-				7EFA84071DF9577500241658 /* BKDeviceManager.m */,
-				7EFA840E1DF9651500241658 /* BKAppManager.h */,
-				7EFA840F1DF9651500241658 /* BKAppManager.m */,
+				7EFA84141DF973E900241658 /* BKAppManager.h */,
+				7EFA84151DF973E900241658 /* BKAppManager.m */,
+				7EFA84161DF973E900241658 /* BKDeviceManager.h */,
+				7EFA84171DF973E900241658 /* BKDeviceManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
 		};
-		7EFA84041DF956C200241658 /* Tool */ = {
+		7EFA84181DF973E900241658 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		7EFA84051DF956C200241658 /* View */ = {
+		7EFA84191DF973E900241658 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -191,9 +192,9 @@
 				7EFA83E91DF9110500241658 /* BaseKit.h in Headers */,
 				7EFA84001DF954EA00241658 /* UITextField+BaseKit.h in Headers */,
 				7EFA83F41DF950D100241658 /* UIBarButtonItem+BaseKit.h in Headers */,
+				7EFA841C1DF973E900241658 /* BKDeviceManager.h in Headers */,
 				7EFA83F81DF951A500241658 /* UIColor+BaseKit.h in Headers */,
-				7EFA84081DF9577500241658 /* BKDeviceManager.h in Headers */,
-				7EFA84101DF9651500241658 /* BKAppManager.h in Headers */,
+				7EFA841A1DF973E900241658 /* BKAppManager.h in Headers */,
 				7EFA83FC1DF952D000241658 /* UIStoryboard+BaseKit.h in Headers */,
 				7EFA840C1DF9645700241658 /* NSObject+BaseKit.h in Headers */,
 				7EFA83F01DF9447400241658 /* UIButton+BaseKit.h in Headers */,
@@ -303,12 +304,12 @@
 			files = (
 				7EFA83B51DF9046900241658 /* NSString+BaseKit.m in Sources */,
 				7EFA83F11DF9447400241658 /* UIButton+BaseKit.m in Sources */,
-				7EFA84111DF9651500241658 /* BKAppManager.m in Sources */,
+				7EFA841B1DF973E900241658 /* BKAppManager.m in Sources */,
 				7EFA83F51DF950D100241658 /* UIBarButtonItem+BaseKit.m in Sources */,
 				7EFA840D1DF9645700241658 /* NSObject+BaseKit.m in Sources */,
-				7EFA84091DF9577500241658 /* BKDeviceManager.m in Sources */,
 				7EFA83F91DF951A500241658 /* UIColor+BaseKit.m in Sources */,
 				7EFA83FD1DF952D000241658 /* UIStoryboard+BaseKit.m in Sources */,
+				7EFA841D1DF973E900241658 /* BKDeviceManager.m in Sources */,
 				7EFA84011DF954EA00241658 /* UITextField+BaseKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
